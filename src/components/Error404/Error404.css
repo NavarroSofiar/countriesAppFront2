@@ -1,0 +1,11 @@
+.fondoE{
+    background: url('https://cdn.dribbble.com/users/1940197/screenshots/14101002/media/6939f51c2401d2d823bacaddc0867160.gif'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  max-width: 100%;
+  /* width: 500px; */
+  min-width: 390px;
+  min-height: 700px;
+}
