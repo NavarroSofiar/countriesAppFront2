@@ -1,0 +1,13 @@
+.container-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: white;
+    background: radial-gradient(100% 100% at 100% 0%, #303638d0 0%, #0c113686 100%);
+    box-shadow: 1px 2px 4px rgba(45, 35, 66, 0.637), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);   
+    text-decoration: none
+}
