@@ -1,13 +1,24 @@
 body {
+     
+
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+   sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ background: url(https://img.freepik.com/foto-gratis/equipaje-amarillo-plano-espacio-copia_23-2148786124.jpg?w=826&t=st=1664156639~exp=1664157239~hmac=3e0db0993b62715383a4272e9070a3dd1f837a1e4baa81237f0206ae2527e101); 
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center center;
+ background-attachment: fixed;
+ max-width: 100%;
+ /* width: 500px; */
+ min-width: 390px;
+ min-height: 700px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+   monospace;
 }
