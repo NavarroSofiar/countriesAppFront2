@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import mundito from '../../img/Mundo_hecho_de_Banderas.gif'
+import mundito from '../Error404/img/Mundo_hecho_de_Banderas.gif'
 
 const Error404 = () => {
   return (
