@@ -1,0 +1,50 @@
+.formSearch{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    /* border: 1px solid purple; */
+}
+
+.searchBar {
+    outline: 0;
+    border: 0;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #303638 0%, #0c113689 100%);
+    box-shadow: 0px 2px 4px rgba(181, 168, 209, 0.4), 0px 7px 13px -3px rgba(219, 206, 247, 0.3), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 15px;
+    height: 48px;
+    font-size: 15px;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    margin: 0px 15px;
+    width: 285px;
+    color: white;
+    /* border: 1px solid red */
+}
+.searchBar::placeholder { color: white; }
+.searchBar:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #bebfc9;
+    transform: translateY(-2px);
+}
+
+.searchBar:active {
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+}
+
+
+.btnSubmit{
+    color: white;
+    background: linear-gradient(to right, #303638 0%, #0c113689);
+    border-radius: 20px;
+    height: 48px;
+    margin-right: 15px;
+    
+  }
+
+  .btnSubmit:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #bebfc9;
+    transform: translateY(-2px);
+    background: rgb(124, 76, 76)
+  }

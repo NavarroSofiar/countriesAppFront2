@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Roboto:ital,wght@1,100&family=Rubik+Moonrocks&display=swap');
+
+.countryCard {
+    margin: 30px 30px 0px 0px;
+    justify-content:center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    outline: 0;
+    border: 0;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #30363880 0%, #0c113689 100%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+   
+}
+
+.countryCard:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #bebfc9;
+    transform: translateY(-2px);
+}
+
+.imgCountry {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 110px;
+    text-align: center;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.pName, .pContinent{
+    color: white;
+    text-decoration: none
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
